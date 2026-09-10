@@ -108,3 +108,33 @@ button {
     font-size: 1.1rem;
     display: none; 
 }
+/* Classes de feedback visual injetadas via JavaScript */
+.erro {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #f87171;
+}
+
+.consumo-baixo {
+    background-color: #d1fae5;
+    color: #065f46;
+    border: 1px solid #34d399;
+}
+
+.consumo-moderado {
+    background-color: #fef3c7;
+    color: #92730e;
+    border: 1px solid #fbbf24;
+}
+
+.consumo-alto {
+    background-color: #ffedd5;
+    color: #92400e;
+    border: 1px solid #fdba74;
+}
+
+.consumo-muito-alto {
+    background-color: #fecdd3;
+    color: #9f1239;
+    border: 1px solid #fb7185;
+}
